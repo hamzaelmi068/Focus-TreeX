@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Button } from '@/components/ui/button';
-import { useStore } from '../utils/store';
+import { useStore } from '../UI Files/store';
 import { Play, Pause, RotateCcw } from 'lucide-react';
 
 export function Timer() {

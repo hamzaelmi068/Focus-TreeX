@@ -1,5 +1,5 @@
 import React from 'react';
-import { useStore } from '../utils/store';
+import { useStore } from '../UI Files/store';
 
 export function Tree() {
   const { treeGrowth, selectedTreeStyle, treeStyles } = useStore();
